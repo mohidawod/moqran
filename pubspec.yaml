@@ -1,0 +1,37 @@
+name: moqran
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.11.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # إدارة الحالة وحقن التبعيات
+  flutter_riverpod: ^2.6.0
+
+  # مكتبة الاتصال بالشبكة
+  dio: ^5.7.0
+
+  # مشغل الصوت
+  just_audio: ^0.9.44
+
+  # الإضافة الجديدة للتشغيل في الخلفية (الإصدار المتوافق)
+  just_audio_background: ^0.0.1-beta.17
+
+  # تهيئة وإعداد جلسات الصوت مع النظام
+  audio_session: ^0.1.21
+
+  # الإشعارات المحلية
+  flutter_local_notifications: ^18.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
